@@ -78,8 +78,6 @@ body {
     flex-wrap: wrap;
     align-items: center;
     width: inherit;
-    /* margin: 10px; */
-    /* padding: 20px; */
     border: grey 3px solid;
 }
 
