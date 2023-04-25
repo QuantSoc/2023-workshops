@@ -1,0 +1,188 @@
+body {
+    font-family: 'Arial', 'Roboto', sans-serif;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    /* width: 100%; */
+    border:red 3px solid;
+}
+
+.nav {
+    width: 96%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: blue 3px solid;
+    margin: 5px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    color: rgb(44, 44, 60);
+    font-weight: Heavy;
+    font-size: 24px;
+    /* padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; */
+    padding: 10px;
+    margin: 10px;
+    border: black 3px solid;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: green 3px solid;
+}
+
+.nav-item {
+    padding: 20px;
+    margin: 20px;
+    border: black 3px solid;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; ??*/
+    align-items: center;
+    width: 1000px;
+    /* height: 100%; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; wrap the content to the next line */
+    /* width: 1000px; */
+    border: 5px solid #000036;
+}
+
+/* .main div {
+
+} */
+
+.section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: inherit;
+    /* margin: 10px; */
+    /* padding: 20px; */
+    border: grey 3px solid;
+}
+
+.hook {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.hook div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 420px;
+    margin: 5px;
+    padding: 20px;
+    border: rgb(219, 206, 20) 3px solid;
+}
+
+.hook img {
+    width: inherit;
+    height: inherit;
+}
+
+.hook .hook-text {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.insurance-types {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    /* align-items: ; */
+}
+
+.insurance-card {
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    height: 220px;
+    padding: 20px;
+    border: rgb(145, 29, 187) 1px solid;
+    /* margin-top: 10px; */
+    /* margin: 20px; */
+}
+
+.insurance-card:hover {
+    opacity: 0.6;
+}
+
+.insurance-card img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.description h3 {
+    margin-top: 0px;
+}
+
+.description p {
+    color: grey;
+}
+
+
+
+
+/* 
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: "Roboto", sans-serif;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    border: 10px solid var(--clr-dark);
+  }
+  
+  .item {
+    width: 150px;
+    height: 150px;
+    background-color: #fb7185;
+    padding: 1em;
+    font-weight: 700;
+    color: var(--clr-light);
+    text-align: center;
+    border: 10px solid var(--clr-accent);
+    border-radius: 10px;
+  }
+*/
+  
