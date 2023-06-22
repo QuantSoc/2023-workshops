@@ -9,8 +9,17 @@ class: invert
 # <!-- fit --> React JS
 
 ---
+- Framework for building user interfaces (UIs)
+- Technically not a library, as it also controls the flow of the application
+- Build isolated UI components that **react** accordingly to the state of your application as it changes 
+  - hence, React is a 'declarative' framework -> you declare the expected result and logic, and React will deal with how we transition to that result/state.
+- Saves a lot of effort programming for transitions between each state.
+  ![Complete Graphs](completegraphs.png)
+- Allows us to define each state nicely with JSX
 
-# JSX
+---
+
+# JSX (JS XML)
 
 > JavaScript Extension Syntax → allows you to write and render HTML in JS
 
