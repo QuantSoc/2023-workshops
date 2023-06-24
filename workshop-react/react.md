@@ -451,6 +451,8 @@ Run `npm install` to install all dependencies from a `package.json` file.
 
 Registration Page and Dashboard
 
+> App has alread y been set up
+
 ---
 
 # **Homework**
