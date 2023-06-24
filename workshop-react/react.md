@@ -451,7 +451,7 @@ Run `npm install` to install all dependencies from a `package.json` file.
 
 # Demo time
 
-Registration Page and Dashboard
+Buttons and Dashboard
 
 > App has alread y been set up
 
