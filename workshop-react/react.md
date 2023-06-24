@@ -8,7 +8,7 @@ class: invert
 
 # <!-- fit --> React JS
 
----
+# Introduction
 - Framework for building user interfaces (UIs)
 - Technically not a library, as it also controls the flow of the application
 - Build isolated UI components that **react** accordingly to the state of your application as it changes 
